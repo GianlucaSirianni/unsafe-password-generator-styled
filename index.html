@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator Wannabe</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="formContainer">
+        <form action="/action_page.php">
+
+            <div class="formLine">
+                <label for="firstName">First name:</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Write your first name">
+            </div>
+            <div class="formLine">
+                <label for="lastName">Last name:</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Write your last name">
+            </div>
+            <div class="formLine">
+                <label for="firstName">Favorite Color:</label>
+                <input type="text" id="favoriteColor" name="favoriteColor" placeholder="Write your favorite color">
+            </div>
+            <div class="formLine">
+                <label for="firstName">Favorite Number:</label>
+                <input type="text" id="favoriteNumber" name="favoriteNumber" placeholder="Write your favorite number">
+            </div>
+            <div class="formLine submitter">
+                <a class="submitButton" href="#" onclick="submitForm()"> Submit Here</a>   
+            </div>
+        </form>
+    </div>
+
+    <div class="responseContainer">
+        <p> Here's your...pasword I guess?</p>
+        <h3 id="pswDiv">
+
+        </h3>
+    </div>
+
+
+
+
+
+    <h2 id="pswDiv">
+
+    </h2>
+
+    <script type="text/javascript" src="./assets/js/main.js"></script>
+</body>
+
+</html>
