@@ -54,7 +54,14 @@
     width: 30%;
     height: 200px;
     margin: auto;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     border: 1px solid red;
+}
+
+.responseContainer h2{
+    margin-bottom: 2rem;
+}
+
+.responseContainer h3{
+    margin-bottom: 2rem;
 }
